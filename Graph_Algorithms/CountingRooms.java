@@ -1,4 +1,4 @@
-
+package Graph_Algorithms;
 import java.util.*;
 public class CountingRooms {
     public static void main(String[] args) {
