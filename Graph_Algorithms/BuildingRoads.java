@@ -41,8 +41,6 @@ class DSU{
 }
 public class BuildingRoads {
     public static void main(String[] args) throws IOException{
-        // Scanner sc = new Scanner(System.in);
-        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String inp[] = br.readLine().split(" ");
         int m = Integer.parseInt(inp[0]);
@@ -69,6 +67,5 @@ public class BuildingRoads {
         for(int i = 0; i < sb.size() - 1; i++)
             System.out.println(sb.get(i)+" "+sb.get(i+1));
 
-        // sc.close();
     }
 }
