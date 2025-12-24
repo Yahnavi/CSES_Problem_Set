@@ -20,8 +20,6 @@ public class MessageRoute {
             inp = br.readLine().split(" ");
             int a = Integer.parseInt(inp[0]) - 1;
             int b = Integer.parseInt(inp[1]) - 1;
-
-            // adj[a-1][b-1] = true;
             
             adj.get(a).add(b);
             adj.get(b).add(a);
